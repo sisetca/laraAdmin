@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('nosotros', 'FrontController@nosotros');
+
+/* ================== Pages ================== */
+//Route::resource('pages', 'PageController');
+
+
+/* ================== Homepage + Admin Routes ================== */
+
+require __DIR__.'/admin_routes.php';

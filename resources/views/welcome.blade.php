@@ -36,10 +36,18 @@
         </style>
     </head>
     <body>
+     {{-- @foreach($pages as $page)--}} 
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">{{ Page::getByTitle('Nosotros') }}</div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p>hola</p>
+                
+              </div>
             </div>
         </div>
+        {{-- @endforeach--}} 
     </body>
 </html>
