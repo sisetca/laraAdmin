@@ -1,30 +1,36 @@
-
+<section id="te" name="te"></section>
 <!-- FEATURES WRAP -->
 <div id="features">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 centered">
-                <img class="centered" src="{{ asset('/la-assets/img/mobile.png') }}" alt="">
+            <div class="col-lg-6 centered">
+             <iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/BNQmGSGTyW4" width="560"></iframe>
+                
             </div>
 
-            <div class="col-lg-7">
-				<h3 class="feature-title">What is LaraAdmin ?</h3><br>
-				<ol class="features">
-					<li><strong>CMS</strong> (Content Management System) &#8211; Manages Modules &amp; their Data</li>
-					<li>Backend <strong>Admin Panel</strong> &#8211; Data can be used in front end applications with ease.</li>
-					<li>A probable <strong>CRM</strong> System &#8211; Can be evolved into a CRM system like <a target="_blank" href="https://www.sugarcrm.com">SugarCRM</a></li>
-				</ol><br>
+            <div class="col-lg-6">
+				<h3 class="feature-title">Té Concierto</h3><br>
+				<p>La música es uno de los sellos del Time Out, por tal razón ese talento lo compartimos a los demas como un espacio fuera de la rutina. Apoyando también artistas emergentes. En los té concierto se promueve la cultura del dar, ya que los alimentas recaudado como entrada, son cocinados y entregados a personas que frente a la crisis no tienen que comer. Llevando asi un mensaje de esperanza y mostrando que algo tan pequeño para uno, sea tan significativo para otros.</p>
 
-				<h3 class="feature-title">Why LaraAdmin ?</h3><br>
-                <ol class="features">
-					<li><strong>Philosophy:</strong> Inspired by SugarCRM &amp; based on Advanced <strong>Data Types</strong> like Image, HTML, File, Dropdown, TagInput which makes developers job easy. See more in <a target="_blank" href="http://laraadmin.com/features">features</a></li>
-					<li>Superior <strong>CRUD generation</strong> for Modules which generates Migration, Controller, Model and Views with single artisan command and integrates with Routes as as well.</li>
-					<li><strong>Form Maker</strong> helper is provided for generating entire form with single function call with module name as single parameter. It also gives you freedom to customise form for every field by providing method to generate single field with parameters for customisations.</li>
-					<li><b>Upload Manager </b>manages project files &amp; images which are integrated with your Module fields.</li>
-					<li><strong>Menu Manager</strong> creates menu with Modules &amp; Custom Links likes WordPress</li>
-					<li><strong>Online Code Editor</strong> allows developers to customise the generated Module Views &amp; Files.</li>
-				</ol>
             </div>
         </div>
+       
     </div><!--/ .container -->
 </div><!--/ #features -->
+<div class="container-fluid-td">
+	 <div class="row">
+	 <div class="minute-for-peace">
+        <div class="col-lg-8 centered">
+             <h3 class="minute-title">1 Minuto por la PAZ</h3><br>
+                <p>
+A las doce del mediodía en todo el mundo, cada día, un momento de silencio u oración por la paz.</br></p>
+<p>
+La idea nace durante la guerra del Golfo, en 1991. Chiara Lubich (Fundadora del Movimiento de los Focolares) propone a todos los de su obra y a quienes quisieran adherir, a un minuto de silencio u oración por la paz a las 12 h. De esta manera y gracias a la distribución de miembros de los Focolares en los cinco continentes, se cubren las 24 horas del día con una oración o grito silencioso por la paz. En cada huso horario, miles de personas pidiendo la paz.
+</p>
+            </div>
+            <div class="col-lg-4">
+			     <img class="img-responsive" src="{{ asset('/la-assets/img/minuto-paz.png') }}" alt="">
+            </div>
+        	</div>
+        </div>
+</div>

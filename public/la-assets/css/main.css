@@ -85,7 +85,7 @@ a:after {
 
 #headerwrap h3 {
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
     line-height: 40px;
 }
 
@@ -174,4 +174,23 @@ ol.features li {
 }
 .contact-link i {
 	margin-right: 7px;
+}
+/**io */
+h3.minute-title{
+	color:white;
+}
+
+.container-fluid-td {
+    background-color: rgb(52, 73, 94);
+    color: white;
+}
+
+.minute-for-peace {
+    padding-top: 40px;
+    
+}
+
+.redes-footer{
+	
+	color:white;
 }
